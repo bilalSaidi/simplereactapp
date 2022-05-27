@@ -5,7 +5,8 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
-
+env:
+  CI: ""
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
@@ -17,7 +18,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          build: npm run build:ci
-          env:
-            CI: ""
+          build: npm run build
           start: npm start
