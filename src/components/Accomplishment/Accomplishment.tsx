@@ -30,7 +30,7 @@ function Accomplishment() {
                 <h2 className="Accomplishment-header">Accomplishment</h2>
             </div>
             <div className="Accomplishment-cards-container">
-                {/* comment another */}
+   
                 {
                     (!loading && !showSuccess) && (
                         <>
