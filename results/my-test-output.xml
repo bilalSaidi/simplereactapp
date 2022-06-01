@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-06-01T11:59:38" tests="0" file="cypress/integration/Locators.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Locators" timestamp="2022-06-01T11:59:38" tests="3" time="0.0000" failures="1">
+    <testcase name="Locators &quot;before each&quot; hook for &quot;getMethod&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;getMethod&quot;">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://charming-platypus-dee538.netlify.app/elements
+
+The response we received from your web server was:
+
+  &gt; 404: Not Found
+
+This was considered a failure because the status code was not `2xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Locators`" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://charming-platypus-dee538.netlify.app/elements
+
+The response we received from your web server was:
+
+  > 404: Not Found
+
+This was considered a failure because the status code was not `2xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Locators`
+    at https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:163310:84
+    at visitFailedByErr (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:162631:12)
+    at https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:163290:13
+    at tryCatcher (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:11135:18)
+    at _drainQueueStep (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:7729:12)
+    at _drainQueue (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:7722:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:7738:5)
+    at Async.drainQueues (https://charming-platypus-dee538.netlify.app/__cypress/runner/cypress_runner.js:7608:14)
+From Your Spec Code:
+    at Context.eval (https://charming-platypus-dee538.netlify.app/__cypress/tests?p=cypress\integration\Locators.spec.js:7:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
