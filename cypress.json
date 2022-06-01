@@ -1,4 +1,8 @@
 {
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output-[hash].xml"
+  },
   "baseUrl": "https://charming-platypus-dee538.netlify.app/",
   "ignoreTestFiles": [
     "**/1-getting-started/*",
@@ -6,12 +10,8 @@
     "**/pageObjects/*",
     "**/cucemmber-bdd/**/*.js"
   ],
-  "projectId": "64d3a4",
+  "projectId": "64d3a4"
   
-  "reporter": "junit",
-  "reporterOptions": {
-    "mochaFile": "results/my-test-output.xml",
-    "toConsole": true
-  }
+
   
 }
